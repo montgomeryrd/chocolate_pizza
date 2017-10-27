@@ -1,0 +1,52 @@
+/*app styles*/
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+h4{
+  font-family: helvetica;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.intro img{
+  float: right;
+}
+
+.hero img{
+}
+
+.text p {
+  font-family: times;
+  font-size: 16px;
+  color: gray;
+  text-indent: 30px;
+  margin: 30px 30px;
+  width: 960px;
+}
+
+section img{
+  position: relative;
+}
+
+ul {
+  position: absolute;
+  height: 300px;
+}
+
+section li {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 20px;
+  color: grey;
+  list-style-image:"☐";
+}
