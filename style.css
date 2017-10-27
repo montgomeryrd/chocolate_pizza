@@ -24,6 +24,9 @@ h4{
   margin-bottom: 0px;
 }
 
+.intro div{
+  margin-top: -10px;
+}
 
 .intro img{
   float:right;
@@ -57,8 +60,8 @@ h4{
 }
 
 section {
+  margin-top: 30px;
   background-image: url("img/list-bg.png");
-
 }
 
 section ul {
