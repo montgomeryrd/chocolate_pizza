@@ -83,3 +83,133 @@ section li {
 .strike {
   text-decoration: line-through;
 }
+
+/* The Header */
+
+html {
+  width:960px;
+}
+
+header {
+  display: block;
+  width: 960px;
+  margin-top: 40px;
+  margin-left: 400px
+}
+
+/* Lefthand Logo */
+#logo {
+position:absolute;
+  width:50px;
+  float:left;
+}
+
+h1 {
+  position:absoulte;
+  margin-left: 50px;
+  font-family: Yellowtail;
+  font-size: 45px;
+}
+
+h2 {
+  position:absolute;
+  margin-left: 56px;
+  font-family:arial;
+  font-size:10px;
+}
+
+/* Social Navigation and Contact */
+nav {
+  margin-bottom: 75px;
+  margin-top:-35px;
+}
+
+nav ul li {
+  display:inline-block;
+}
+
+.social_icons {
+  float:right;
+}
+
+.contact_icons {
+  float:right;
+  margin-left:10px;
+}
+
+.bar {
+  width: 960px;
+  display:block;
+  margin: auto;
+}
+
+/* End of Header */
+/* End of Header */
+/* End of Header */
+
+
+
+
+/* Start of Footer */
+footer {
+  display: block;
+  width: 960px;
+  margin-top: 40px;
+  margin-left: 400px
+
+}
+
+.vanessa {
+  float:left;
+  margin-right:20px;
+  width:100px;
+}
+
+h5 {
+  font-size:30px;
+  font-weight:bold;
+  margin-top:5px;
+  margin-bottom: 15px;
+}
+
+.footer {
+  float:left;
+  font-size:20px;
+  width: 590px;
+  margin-bottom:100px;
+}
+
+#btn {
+  margin-top:-40px;
+  float:right;
+  padding:20px;
+  background: #b35900;
+  color: #FFF;
+  border: none;
+  font-family: arial;
+  font-size: 20px;
+}
+
+.the_foot {
+  clear:both
+}
+
+.footer_image {
+  display:block;
+  margin: auto;
+}
+
+.bottom_text {
+  margin-top:40px;
+  color: #444;
+  text-align:center;
+}
+
+.bottom_bottom_text {
+  text-align:center;
+  color: #444;
+}
+
+.bottom {
+  margin-bottom:100px;
+}
