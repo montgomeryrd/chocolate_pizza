@@ -4,6 +4,11 @@ body {
   margin: 0 auto;
 }
 
+.intro div {
+width: 900px;
+clear: both;
+}
+
 h3 {
   font-family: 'Roboto', sans-serif;
   font-size: 28px;
@@ -15,12 +20,27 @@ h4{
   font-family: helvetica;
   font-size: 10px;
   text-transform: uppercase;
-  color: gray;
-  margin-bottom: 20px;
+  color: #a2a0a0;
+  margin-bottom: 0px;
 }
 
+
 .intro img{
-  float: right;
+  float:right;
+  margin-bottom: 10px;
+}
+
+.intro p{
+  display:inline-block;
+  float:right;
+  font-family: helvetica;
+  font-size: 10px;
+  color: #a2a0a0;
+}
+
+
+.hero div{
+  clear: both;
 }
 
 .hero img{
@@ -28,25 +48,35 @@ h4{
 
 .text p {
   font-family: times;
-  font-size: 16px;
+  font-size: 21px;
   color: gray;
-  text-indent: 30px;
-  margin: 30px 30px;
-  width: 960px;
+  text-indent: 32px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 30px;
 }
 
-section img{
+section {
+  background-image: url("img/list-bg.png");
+
+}
+
+section ul {
   position: relative;
-}
-
-ul {
-  position: absolute;
+  top: 50px;
+  left: 50px;
   height: 300px;
+  column-count: 2;
+  line-height: 35px;
 }
 
 section li {
-  font-family: 'Patrick Hand', cursive;
+  font-family: "Patrick Hand";
   font-size: 20px;
   color: grey;
-  list-style-image:"☐";
+  width: 300px;
+}
+
+.strike {
+  text-decoration: line-through;
 }
