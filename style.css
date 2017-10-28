@@ -1,4 +1,71 @@
 /*app styles*/
+
+/* The Header */
+html {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  margin: 30px auto;
+}
+
+/* The Header */
+header {
+  display: block;
+  width: 960px;
+  margin: 30px auto;
+  margin-top: 40px;
+}
+
+/* Lefthand Logo */
+#logo {
+position:absolute;
+  width:50px;
+  float:left;
+}
+
+h1 {
+  position:absoulte;
+  margin-left: 50px;
+  font-family: Yellowtail;
+  font-size: 45px;
+}
+
+h2 {
+  position:absolute;
+  margin-left: 56px;
+  font-family:arial;
+  font-size:10px;
+}
+
+/* Social Navigation and Contact */
+nav {
+  margin-bottom: 75px;
+  margin-top:-35px;
+}
+
+nav ul li {
+  display:inline-block;
+}
+
+.social_icons {
+  float:right;
+}
+
+.contact_icons {
+  float:right;
+  margin-left:10px;
+}
+
+.bar {
+  width: 960px;
+  display:block;
+  margin: auto;
+}
+
+/* End of Header */
+
 body {
   width: 960px;
   margin: 0 auto;
@@ -84,71 +151,6 @@ section li {
   text-decoration: line-through;
 }
 
-/* The Header */
-html {
-  width: 100%;
-}
-
-body {
-  width: 100%;
-  margin: 30px auto;
-}
-
-/* The Header */
-header {
-  display: block;
-  width: 960px;
-  margin: 30px auto;
-  margin-top: 40px;
-}
-
-/* Lefthand Logo */
-#logo {
-position:absolute;
-  width:50px;
-  float:left;
-}
-
-h1 {
-  position:absoulte;
-  margin-left: 50px;
-  font-family: Yellowtail;
-  font-size: 45px;
-}
-
-h2 {
-  position:absolute;
-  margin-left: 56px;
-  font-family:arial;
-  font-size:10px;
-}
-
-/* Social Navigation and Contact */
-nav {
-  margin-bottom: 75px;
-  margin-top:-35px;
-}
-
-nav ul li {
-  display:inline-block;
-}
-
-.social_icons {
-  float:right;
-}
-
-.contact_icons {
-  float:right;
-  margin-left:10px;
-}
-
-.bar {
-  width: 960px;
-  display:block;
-  margin: auto;
-}
-
-/* End of Header */
 /* End of Header */
 /* End of Header */
 
