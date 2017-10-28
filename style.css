@@ -85,16 +85,21 @@ section li {
 }
 
 /* The Header */
-
 html {
-  width:960px;
+  width: 100%;
 }
 
+body {
+  width: 100%;
+  margin: 30px auto;
+}
+
+/* The Header */
 header {
   display: block;
   width: 960px;
+  margin: 30px auto;
   margin-top: 40px;
-  margin-left: 400px
 }
 
 /* Lefthand Logo */
@@ -155,7 +160,7 @@ footer {
   display: block;
   width: 960px;
   margin-top: 40px;
-  margin-left: 400px
+  margin: 30px auto;
 
 }
 
@@ -213,3 +218,6 @@ h5 {
 .bottom {
   margin-bottom:100px;
 }
+/* End of Footer */
+/* End of Footer */
+/* End of Footer */
